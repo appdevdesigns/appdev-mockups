@@ -1,0 +1,68 @@
+/* =Development */
+.rb { border: 1px solid #f00; }
+.rbg { background-color: rgba(255,0,0,0.8); }
+.gbg { background-color: #aaa; }
+
+.opsportal-checkbox { margin-top: 10px !important; }
+
+#opsportal-loading {
+	margin: 300px auto;
+	width: 400px;
+	height: 22px;
+}
+
+#opsportal-loading div {
+	height: 100%;
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	line-height: 22px;
+	width: 0;
+}
+
+.opsportal-loading-global {
+    position: relative;
+    padding: 0px;
+    height: 15px !important;
+	background: #999999;
+
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Webkit */
+	border-radius: 10px;
+}
+
+.opsportal-loading-global div {
+
+	font-family: arial;
+	font-size: 3px;
+	color: white;
+	text-align: right;
+	text-shadow: 0px 0px 2px #000;
+	text-indent: 9999px;
+	overflow: hidden;
+	background: #333333;
+
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Webkit */
+	border-radius: 10px;
+}
+
+.opsportal-widget-container-divider { border-top: 1px solid rgba(0,0,0,0.1); padding-top: 30px; margin-top: 30px; }
+
+.opsportal-showhide { display: block; position: relative; }
+
+
+/* Edits after 2015-04-30 */
+
+
+.op-list { position: relative; list-style: none; }
+/*.gen-btn-list { position: relative; margin: 15px 30px 15px 15px; border-bottom: 1px solid rgba(0, 0, 0, 0.1); padding-bottom: 15px; height: 50px; }
+.gen-btn-list ul { float: right; border-left: 0 !important; }
+.gen-btn-list ul li { margin: 0; padding: 0; }
+.gen-btn-list ul li:hover { background: transparent; border: 0; }
+.gen-btn-list .active-btn, .gen-btn-list .active-btn a { opacity: 1; }*/
+
+
+
+
+

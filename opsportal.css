@@ -1,0 +1,465 @@
+/*
+	=0. Bootstrap Overrides
+	=1. Global Styles 
+	=2. Global Colors
+	=3. Global Blocks
+*/
+
+/* =0. Bootstrap Overrides */
+/*.opsportal-container-full { min-width: 1170px !important; }*/ /* disable responsive; see http://getbootstrap.com/getting-started/#disable-responsive */
+/*.opsportal-stage-container .row { margin-right: 0 !important; margin-left: 0 !important; }*/
+.row { 
+	overflow: hidden; 
+}
+
+.btn { 
+	white-space: normal !important; 
+}
+.form-horizontal .form-group { 
+	margin-right: 0; 
+	margin-left: 0; 
+}
+.tooltip, .popover { 
+	position: fixed; 
+}
+.tooltip-inner { 
+	font-weight: bold; 
+	padding: 6px 12px; 
+}
+.popover-title { 
+	border-bottom: 1px solid #666666; 
+}
+.popover-content { 
+	line-height: 18px; 
+}
+.btn, .btn:hover, .btn:focus, a.btn, a.btn:hover, a.btn:visited { 
+	border-radius: 0 !important; 
+	border: 1px solid transparent !important;
+}
+.control-label { 
+	text-align: left !important; 
+}
+.modal-dialog { 
+	width: 50%; 
+}
+
+/* =1. Global Styles */
+html, body { 
+	width: 100% !important; 
+	height: 100% !important; 
+	/*overflow: hidden !important; */
+}
+
+a { 
+	text-decoration: none; 
+	opacity: 0.5; 
+	-webkit-transition:opacity .3s ease-out;
+	-moz-transition:opacity .3s ease-out;
+	-o-transition:opacity .3s ease-out;
+	transition:opacity .3s ease-out; 
+	border: 0; 
+}
+a:hover, a:visited { 
+	opacity: 1; 
+	border: 0;
+}
+/*.opsportal-col-centered { float: none !important; margin: 0 auto !important; }*/
+/*.opsportal-launch-box { margin: 30px auto; padding: 30px 15px; }*/
+
+
+
+/* =2. Global Colors */
+/* See opsportal-theme.css */
+
+
+
+/* =3. Global Blocks */
+/*Content is broken down into containers, each container further divided into "masthead", "body", and "footer". For example,
+the .op-widget class can contain a .op-widget-masthead class, a .op-widget-body class, and a .op-widget-footer class. */
+.row.op-container { margin-right: 0 !important; }
+
+.op-container { 
+	position: relative; 
+}
+
+.op-masthead { 
+	min-height: 60px; 
+	padding: 20px; 
+}
+.op-masthead a, .op-masthead icon i { 
+	outline: 0; 
+	text-decoration: none; 
+}
+
+#op-masthead-menu { 
+	float: left;
+	width: 50%;
+}
+
+#op-masthead-nav { 
+	float: right; 
+	width: 50%;
+}
+#op-masthead-nav ul { 
+	position: relative; 
+	float: right; 
+	overflow: hidden; 
+}
+#op-masthead-nav ul li { 
+	float: left; 
+}
+#op-masthead-nav ul li a { 
+	display: block; 
+	margin: 0 15px; 
+}
+
+#op-masthead-nav ul li.active a { 
+	opacity: 1 !important; 
+	font-weight: bold;
+}
+
+.op-stage { 
+	position: relative; 
+	padding: 0 !important; 
+	margin: 0 !important; 
+	overflow-y: scroll !important; 
+}
+
+.op-stage-masthead, .op-block-masthead { 
+	margin: 15px; 
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+	min-height: 64px; 
+}
+.op-block-masthead { 
+	margin: 0; 
+}
+.op-block { 
+	position: relative; 
+	margin-top: 3rem; 
+	padding-bottom: 1.5rem; 
+}
+.op-block-border { 
+	border: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+.op-stage-masthead h2, .op-block-masthead h3 { 
+	font-size: 1.5rem; 
+	line-height: 64px; margin: 0; 
+	padding: 0; 
+	display: inline-block; 
+}
+.op-block .op-block-masthead h3 { 
+	text-transform: uppercase; 
+}
+.op-stage-masthead ul { 
+	margin: 15px 15px 0 0; 
+}
+.op-block-masthead ul { 
+	margin: 15px 0 0 0; 
+}
+
+.op-block-body ul { 
+	border-left: 1px solid rgba(0, 0, 0, 0.1); 
+}
+.op-block-body ul li {
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    display: block;
+    margin: 5px 0;
+    padding: 5px 5px 5px 15px;
+    position: relative;
+}
+.op-block-body ul li:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-left: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+/*.opsportal-stage-full { overflow: hidden; position: relative; top: 0; left: 0; }*/
+/*.opsportal-stage-container { position: absolute; top: 0; left: 0; right: 0; width: 100%; background: #fff; margin: 0; padding: 0; overflow-y: auto; }*/
+/*.opsportal-stage-main { clear: right; margin-left: 15px; margin-right: 15px;}*/
+/*.op-stage-title { float: left; width: 50%; font-size: 1.5rem; line-height: 50px; margin: 0; padding: 0; }
+.opsportal-content-block { position: relative; border: 1px solid rgba(0, 0, 0, 0.1); background-color: #f0f0f0; margin-top: 3rem; }
+.opsportal-content-block-title { width: 50%; float: left; text-transform: uppercase;  }*/
+
+/* =OpsPortal Tables */
+.op-table { 
+	border: 1px solid #cccccc; 
+	margin-top: 15px; 
+}
+.op-table th { 
+	padding: 15px !important; 
+}
+.op-table td { 
+	padding: 15px !important; 
+}
+.op-table input[type="text"], .opsportal-table select { margin-top: 0 !important; }
+
+
+/* =OpsPortal Margins, Padding, Dividers */
+.op-nopadding { padding: 0 !important; }
+.op-margin-top { margin-top: 15px; }
+.op-margin-top-2x { margin-top: 30px; }
+.op-margin-bottom { margin-bottom: 15px; }
+.op-margin-bottom-2x { margin-bottom: 30px; }
+.op-padding-top { padding-top: 15px; }
+.op-padding-top-2x { padding-top: 30px; }
+.op-padding-bottom { padding-bottom: 15px; }
+.op-divider-top { border-top: 1px solid rgba(0, 0, 0, 0.1); padding-top: 15px; }
+.op-divider-bottom { border-bottom: 1px solid rgba(0, 0, 0, 0.1); padding-bottom: 15px; }
+
+
+/* popover styles */
+/*.po-buttons { margin-bottom: 15px; }*/
+
+/* =OpsPortal Widgets */
+.op-menu-widget { 
+	padding: 0; 
+	position: absolute; 
+	top: 0; 
+	left: -200px; 
+	width: 200px; 
+}
+.op-menu-widget ul { 
+	margin-top: 2em; 
+}
+
+.op-widget { 
+	border-right: 1px solid rgba(0, 0, 0, 0.1); 
+	overflow: auto; 
+	-webkit-overflow-scrolling: touch; 
+}
+.op-widget-masthead { 
+	margin: 0 15px 15px 15px; 
+	padding-top: 15px; 
+}
+.op-widget-masthead h3 { 
+	font-size: 1.2em; 
+	margin: 0 !important; 
+	padding: 0 !important; 
+	text-transform: none; 
+}
+.op-widget-masthead p { 
+	font-size: 0.75em; 
+	margin-top: 15px; 
+}
+.op-widget-footer { 
+/*	position: absolute;  */
+	bottom: 0; 
+	left: 0; 
+	width: 100%; 
+}
+
+.op-widget .op-list li.active { 
+	border-top: 1px solid rgba(0, 0, 0, 0.1); 
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+}
+.op-widget .op-list li.active { 
+	font-weight: bold; 
+	opacity: 1 !important; 
+}
+.op-widget .op-list li { 
+	position: relative; 
+	display: block; 
+	padding: 0.75em 15px; 
+	cursor:pointer; 
+	margin: 0; 
+}
+.op-widget .op-list li { 
+	opacity: 0.5; 
+	-webkit-transition:opacity .3s ease-out;
+	-moz-transition:opacity .3s ease-out;
+	-o-transition:opacity .3s ease-out;
+	transition:opacity .3s ease-out; 
+}
+.op-widget .op-list li:hover { 
+	opacity: 1; 
+}
+.op-widget .op-list li:hover .icons { 
+	display: block; 
+}
+
+.op-toggle, .op-modal { 
+	display: block; 
+	padding: 15px 0; 
+	margin: 0; 
+	border-top: 1px solid rgba(0,0,0,0.1); 
+	text-align: center; 
+	width: 100%; 
+}
+
+
+/* =OpsPortal Icons */
+.icons { 
+	position:absolute;
+	top:48%;
+	right:0;
+	margin-top:-10px; 
+	display: none; 
+}
+.icons .icon {
+	position:relative;
+	top:0;
+	left:0;
+	display:inline-block;
+	opacity:.5;
+	-webkit-transition:opacity .3s ease-out;
+	-moz-transition:opacity .3s ease-out;
+	-o-transition:opacity .3s ease-out;
+	transition:opacity .3s ease-out; 
+}
+.icons .icon:hover {
+	opacity:1;
+}
+.op-icon-fw { 
+	margin-right: 0.5em; 
+	font-size: 1.5rem; 
+}
+.op-icon i { 
+	font-weight: bold; 
+	opacity: 1 !important; 
+}
+.op-icon-inverse { 
+	opacity: 1 !important; 
+}
+
+.op-filter ul { 
+	margin: 0.75em auto; 
+	padding-top: 0.75em; 
+	width: -webkit-fit-content; 
+	width: -moz-fit-content; 
+	width: fit-content; 
+}
+.op-filter ul li { 
+	border: 1px solid rgba(0,0,0,0.1); 
+	float: none; 
+	display: inline-block; 
+	margin: 0.75rem 10px; 
+}
+.op-filter ul li:first-child { 
+	border: 0; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+}
+.op-filter ul li a { 
+	display: inline-block; 
+}
+.op-filter .filter-on { 
+	border-radius: 0 !important; 
+	opacity: 0.75; 
+}
+
+.op-icon-hidden-right {
+    display: block;
+    float: right;
+    opacity: 0;
+}
+
+/* =OpsPortal Avatar */
+.op-avatar { 
+	border: 1px solid rgba(0, 0, 0, 0.1); 
+	display: block; 
+	height: auto; 
+	margin: 10px 0; 
+	width: 125px; }
+.op-avatar-th { 
+	display: inline-block; 
+	margin: 0 10px 0 0; 
+	width: 65px; 
+}
+
+.op-edit-avatar {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0 !important;
+    position: relative;
+    width: 127px;
+}
+.op-edit-avatar img {
+    border: 0 none !important;
+    display: block;
+    margin: 0 !important;
+}
+.op-edit-avatar a {
+    background-color: #333333;
+    border: 0 none;
+    color: #FFFFFF !important;
+    display: block;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+.op-edit-avatar a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* =Typeahead searchbar */
+.typeahead, .tt-query, .tt-hint {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+/*    font-size: 24px;     */
+/*    height: 30px;        */
+    line-height: 30px;
+    outline: medium none;
+/*    padding: 8px 12px;   */
+    width: 396px;
+}
+.typeahead {
+    background-color: #fff;
+}
+.typeahead:focus {
+    border: 2px solid #0097cf;
+}
+.tt-query {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.tt-hint {
+    color: #999;
+}
+.tt-dropdown-menu {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 12px;
+    padding: 8px 0;
+    width: 422px;
+}
+.tt-suggestion {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 3px 20px;
+}
+.tt-suggestion.tt-cursor {
+    background-color: #0097cf;
+    color: #fff;
+}
+.tt-suggestion p {
+    margin: 0;
+}
+.gist {
+    font-size: 14px;
+}
+
+/*  == Bootstrap Table == */
+.bootstrap-table div {position: static !important}
+
+/*  =Busy Button */
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+
+/***  Fix for Bootstrap-table Pagination: */
+#opsportal-widgets-area div {
+  position: static;
+}
+.modal {
+  position: fixed !important; 
+}
